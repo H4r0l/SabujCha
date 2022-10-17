@@ -2,3 +2,27 @@
 * {
     font-family: 'Lora', serif;
 }
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+.titulo-productos {
+    font-family: 'Work Sans', sans-serif;
+}
+.background-1 {
+    background-image: url(img\bg-1.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.background-2 {
+    background-image: color(#CCCCCC);
+}
+.background-3 {
+    background-image: url(img\bg-2.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.banner-2 {
+    background-image: url(img\bg-te.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}

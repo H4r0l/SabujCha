@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@400;700&display=swap');
 * {
-    font-family: 'Lora', serif;
+    margin: 0%;
+}
+body {
+    margin-left: 1ch;
+    margin-right: 1ch;
 }
 h1 {
     font-family: 'Playfair Display', serif;
+
 }
 .titulo-productos {
     font-family: 'Work Sans', sans-serif;
@@ -21,8 +26,104 @@ h1 {
     background-repeat: no-repeat;
     height: 100%;
 }
+.banner{
+    display: flex;
+    flex-flow: row wrap;
+}
 .banner-2 {
     background-image: url(img\bg-te.jpg);
     background-repeat: no-repeat;
     height: 100%;
+}
+ul li{
+    display: inline-block;
+    background-color: white;
+    padding-top: 3ch;
+    padding-bottom: 3ch;
+    padding-right: 1ch;
+    padding-left: 1ch;
+    font-family: 'Work Sans', sans-serif;
+}
+ul li:hover {
+    background-color: black;
+    color: white;
+}
+.logo{
+    padding: 2ch;
+    margin-left: 20ch;
+}
+.compra {
+    font-family: 'Work Sans', sans-serif;
+    padding: 3ch;
+    margin-left: 20ch;
+    margin-right: 2ch;
+}
+.compra:hover {
+    color: white;
+    background-color: black;
+}
+.tarjeta-principal {
+    display: flex;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../img/slider-2.jpg");
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 20vh;
+}
+.Titulo-2 {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    text-align: center;
+    font-weight: 300;
+    font-size: 5vh;
+}
+.p-subtitulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 3vh;
+    text-align: center;
+    
+}
+.tarjetas{
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-1 {
+    background-image: url(img/banner-1.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    grid-column-start: 1;
+}
+.card-2{
+    background-image: url(img/banner-2.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    grid-column-start: 2;
+}
+.p-span-1 {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    font-size: 5vh;
+    top: 90px;
+    left: 50px;
+    color: #529F0F;
+}
+.p-span-2 {
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    font-size: 3vh;
+    top: 130px;
+    right: 7%;
 }

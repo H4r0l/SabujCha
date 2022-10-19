@@ -26,3 +26,13 @@ h1 {
     background-repeat: no-repeat;
     height: 100%;
 }
+.imagen-producto-grande {
+    align-content: center;
+    border: 1px solid rgb(228, 228, 228);
+    width: 50%;
+}
+.imagen-producto-pequeñas {
+    align-content: center;
+    border: 1px solid rgb(228, 228, 228);
+    width: 10%;
+}

@@ -28,6 +28,8 @@
 
 ### Revisar carpetas de recursos y maquetas para el desarrollo del proyecto
 
+![alt text](/screen/cap1.png "HTML de la pagina")
+
 + Recursos:  
 [https://drive.google.com/drive/folders/1hZIGNAeM277fGYzJSweDkDMdNF9p1GGO](https://drive.google.com/drive/folders/1hZIGNAeM277fGYzJSweDkDMdNF9p1GGO)
 

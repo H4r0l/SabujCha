@@ -11,21 +11,109 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
 }
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
 #text-product {
     font-family: 'Work Sans', sans-serif;
     color: #706f6f;
     font-weight: lighter;
 }
+#text-news {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    width: 30vh;
+}
+.read-more {
+    font-weight: bold;
+    color: #706f6f;
+    text-decoration: underline;
+}
+#input {
+    margin: 0 auto;
+    margin-top: 15vh;
+    background-color: transparent;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 5vh;
+    width: 20%;
+    display: block;
+}
+.form {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 15vh;
+}
+.span {
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    left: 80vh;
+    bottom: 2vh;
+    color: #706f6f;
+}
+.marcas {
+    display: flex;
+    padding: 10vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.boton-negro {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 58px;
+    position: relative;
+    right: 70vh;
+}
+.boton-negro:hover{ 
+    background-color: #dfdddd;
+    color: black;
+}
+.name {
+    font-family: 'Work Sans', sans-serif;
+    color: #706f6f;
+    font-weight: bold;
+}
 .product-title {
     font-size: larger;
 }
 .background-2 {
-    background-image: color(#CCCCCC);
+    background-color: #e4e4e4;
+    padding-bottom: 10vh;
+}
+.fa-cart-shopping {
+    padding-left: 20px;
 }
 .background-3 {
-    background-image: url(img/bg-2.jpg);
-    background-repeat: no-repeat;
-    height: 100%;
+    background-image: url(../img/bg-2.jpg);
+    height: 30vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 5vh;
+}
+h2 {
+    font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+.columna-1 {
+    padding: 8vh;
+}
+.columna-2 {
+    padding: 8vh;
+}
+.columna-3 {
+    padding: 8vh;
+}
+.columna-4 {
+    padding: 8vh;
 }
 .banner{
     display: flex;
@@ -36,22 +124,15 @@ h1 {
     background-repeat: no-repeat;
     height: 100%;
 }
-ul li{
-    display: inline-block;
-    background-color: white;
-    padding-top: 3ch;
-    padding-bottom: 3ch;
-    padding-right: 1ch;
-    padding-left: 1ch;
-    font-family: 'Work Sans', sans-serif;
-}
-ul li:hover {
-    background-color: black;
-    color: white;
-}
+
+
+
 .logo{
     padding: 2ch;
     margin-left: 50ch;
+}
+.hidden {
+    visibility: hidden;
 }
 .compra {
     font-family: 'Work Sans', sans-serif;
@@ -94,7 +175,6 @@ ul li:hover {
     font-family: 'Playfair Display', serif;
     font-size: 3vh;
     text-align: center;
-    
 }
 .tarjetas{
     display: flex;
@@ -106,6 +186,13 @@ ul li:hover {
     flex-direction: row;
     justify-content: center;
     gap: 5vh;
+}
+.productos-2 {
+    display: grid;
+    grid-template: 50% 50% / 1fr 25% 25% 1fr;
+    row-gap: 2vh;
+    margin: 0%;
+    justify-items: center;
 }
 .card-1 {
     display: block;
@@ -155,6 +242,7 @@ ul li:hover {
     background-size: cover;
     background-attachment: fixed;
     padding: 5vh;
+    justify-items: center;
 }
 .descuento{
     color: white;
@@ -171,12 +259,7 @@ ul li:hover {
     margin-left: 10px;
     margin-top: 10px;
 }
-.desc {
-    font-family: 'Work Sans', serif;
-    position: relative;
-    top: 11px;
-    right: 2px;
-}
+
 .zindex {
     z-index: 0;
 }
@@ -188,4 +271,263 @@ ul li:hover {
     padding: 10vh;
     justify-content: center;
     align-content: center;
+}
+.presentacion{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.producto-parte-1{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.product-cards-1{
+    
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    display:flex;
+}
+.product-cards{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.img-min{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 220px;
+}
+.img_p{
+    width: 37%;
+    height: 73%;
+    margin: 15px;
+    text-align: center;
+}
+.box_star{
+    width: 450px;
+    display: flex;
+    justify-content: start;
+}
+
+.producto-parte-2{
+    margin-bottom: 5rem;
+    align-items: flex-start;
+    width: 580px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+}
+.precio{
+    font-weight: 600;
+}
+
+.fa-star {
+    color:#529F0F ;
+}
+.starblack {
+    color: gray;
+}
+element.style{
+    vertical-align: inherit;
+}
+.comentarios{
+    padding-right: 5px;
+    border-right: 1px solid gray;
+}
+.parrafo{
+
+    color: #706f6f;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+.texto-verde {
+    color: #529f0f;
+}
+.box-social{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.boton-twitter{
+    background-color: #4CA7EA;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boton-facebook{
+    background-color: #495E9A;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boton-google{
+    background-color: #CF563F;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boton-pinterest{
+    background-color: #BD342C;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+=======
+.cuote {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.cuote-2 {
+    padding: 5vh;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: grey;
+}
+.fecha{
+    color: #529F0F;
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    padding: 1vh;
+}
+.lista {
+    font-family: 'Playfair Display', serif;
+    padding: 1vh;
+}
+
+@media  screen and (max-width: 1366px) {
+
+    .logo{
+        margin-left: 20ch;
+    }
+    .compra {
+        margin-left: 30ch;
+    }
+    .tarjetas{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 480px){
+    body {
+        overflow-x: hidden;
+    }
+    ul li {
+        display: none;
+    }
+    .logo {
+        margin: 0%;
+        position: relative;
+        right: 1vh;
+    }
+    .compra{
+        margin: 0%;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 0%;
+    }
+    .botones {
+        visibility: hidden;
+    }
+    .fa-cart-shopping{
+        padding: 0%;
+    }
+    .hidden{
+        visibility: visible;
+        padding-left: 4vh;
+    }
+    .tarjeta-principal{
+        display: flex;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url("../img/slider-2.jpg");
+        justify-content: center;
+        overflow: hidden;
+        margin-bottom: 10vh;
+    }
+    .Titulo-2{
+        font-size: 3vh;
+        font-weight: bold;
+    }
+    .tarjetas{
+        flex-direction: column;
+        position: relative;
+        right: 12vh;
+        gap: 5vh;
+    }
+    .Titulo{
+        position: relative;
+        right: 4vh;
+    }
+    .query-fix {
+        position: relative;
+        left: 10px;
+    }
+    .productos{
+        flex-direction: column;
+        position: relative;
+        left: 2vh;
+    }
+    .productos-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,1fr);
+    }
+    .form{
+        bottom: 8vh;
+    }
+    #input {
+        margin-top: 10vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 4vh;
+        width: 10%;
+    }
+    .boton-negro {
+        display: block;
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 30px;
+        position: relative;
+        right: 20vh;
+    }
+    .marcas {
+        position: relative;
+        left: 2vh;
+    }
+    .contenedor {
+        flex-direction: column;
+    }
 }

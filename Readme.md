@@ -6,6 +6,8 @@
 |  Scrum Master      |            Developer           |        Product Owner        |
 |--------------------|------------------------------- |-----------------------------|
 |  `Alexis vargas`   |          `Harol Urrea`         |        `Leidy Rivera`       |
+|--------------------|--------------------------------|-----------------------------|
+|   `Alexis1326`     |           `Jajaharold`         |        `Ladyriv`            |
 
 
 ## Estructuración
@@ -35,3 +37,6 @@
 
 + Maquetas:  
 [https://drive.google.com/drive/folders/1h7QC_ciA14_bnPiseSb95ToOycQfkdZf](https://drive.google.com/drive/folders/1h7QC_ciA14_bnPiseSb95ToOycQfkdZ
+
+### Como moverse entre ventanas 
++ En la pagina Home con el boton "Pages" Y en la pagina de producto con el boton "Home"

@@ -124,9 +124,19 @@ h2 {
     background-repeat: no-repeat;
     height: 100%;
 }
-
-
-
+ul li{
+    display: inline-block;
+    background-color: white;
+    padding-top: 3ch;
+    padding-bottom: 3ch;
+    padding-right: 1ch;
+    padding-left: 1ch;
+    font-family: 'Work Sans', sans-serif;
+}
+ul li:hover {
+    background-color: black;
+    color: white;
+}
 .logo{
     padding: 2ch;
     margin-left: 50ch;
@@ -397,7 +407,6 @@ input[type="checkbox" i] {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-=======
 .cuote {
     margin-top: 10vh;
     margin-bottom: 10vh;

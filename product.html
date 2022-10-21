@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Productos</title>
 </head>
 <body>
@@ -12,19 +14,23 @@
         <div class="banner">
             <div class="menu">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="./index.html">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">SHOP</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">PAGES</a></li>
                     <li><a href="#">CONTACT</a></li>
+                    <li><a class="money" href="moneda">USD</a></li>
+                    <li class="arrow-down"><a href=""><i class="fa-solid fa-chevron-down"></i></a>
+                    <li class="car-button"><a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
                 </ul>
             </div>
             <div class="logo">
                 <img src="img/logo.png" alt="logo>
             </div>
             <div class="compra">
-                <link rel="shortcut icon" type="image/png" href="img/carrito-de-compras.png"></link>
+            </div>
+
             </div>
         </div>
     </header>
@@ -59,14 +65,17 @@
     <section>
         <div class="descripcion">
             <div class="titles">
-                <a href="#">Description</a>
-                <a href="#">Tags</a>
-                <a href="#">Reviews</a>
+                <div class="nav title-description">
+                    <a href="#">Description</a>
+                    <a href="#">Tags</a>
+                    <a href="#">Reviews</a>
+                </div>
             </div>
             <div class="text">
                 <p>Duis autem vel eum iriure dolor in hendredit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et eros accumsan et just odio dignissim qui
                     blandi praesent luptatum zzril delenit augue duis dolore te fuegiat nulla facilisi. Nam liber tempor cum soluta nobis elefeind option congue nihil imperdient doming id quo mazim
                     placerat	facer possim assum. Typi non habent claritatem insitam est usus legents in iis qui facit eorum claritatem.  </p>
+                    <br>
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                  <p> <br>
@@ -86,89 +95,107 @@
             <h1><u>Related Products</u></h1>
         </div>
         <div class="tarjetas">
-            <div>
-                <a href="#" class="product1">
+            <a href="#" class="product1">
+                <div>
                     <img src="img/product-1.jpg" alt="">
-                </a>
-                <span class="span1">-30%</span>
-                <p>Le Bongai Tea</p>
-                <!--Le Bongai Tea-->
-            </div>
+                </div>
+                <div class="text-product">
+                    <p>Le Bongai Tea</p>
+                    <br>
+                    <p class="price"><strong>$100.00</strong>
+                        <del>-$120.00</del></p>
+                </div>
+                <span class="span1"><strong>-30%</strong></span>
+            </a>
             <div>
-                <a href="#" class="product2">
+            <a href="#" class="product2">
+                <div>
                     <img src="img/product-2.jpg" alt="">
-                </a>
-                <p>Society Ice Tea</p>
-                <!--Society Ice tea-->
+                </div>
+                <div class="text-product">
+                    <p>Society Ice Tea</p>
+                    <br>
+                    <p class="price"><strong>$100.00</strong>
+                        <del>-$120.00</del></p>
+                </div>
+            </a>
             </div>
             <div>
-                <a href="#" class="product3">
+            <a href="#" class="product3">
+                <div>
                     <img src="img/product-3.jpg" alt="">
-                </a>
-                <p>Green Tea Tulsi</p>
+                </div>
+                <div class="text-product">
+                    <p>Green Tea Tulsi</p>
+                    <br>
+                    <p class="price"><strong>$100.00</strong>
+                        <del>-$120.00</del></p>
+                </div>
+                <span class="span2"><strong>-30%</strong></span>
+            </a>
                 <!--Green Tea Tulsi-->
             </div>
             <div>
-                <a href="#" class="product4">
+            <a href="#" class="product4">
+                <div>
                     <img src="img/product-4.jpg" alt="">
-                </a>
-                <p>Best Friends</p>
-                <!--Best Friends Tea-->
+                </div>
+                <div class="text-product">
+                    <p>Best Friends</p>
+                    <br>
+                    <p class="price"><strong>$100.00</strong>
+                        <del>-$120.00</del></p>
+                </div>
+            </a>
             </div>
         </div>
     </section>
     <section class="footer">
         <div class="background-2">
             <div class="columna-1">
-                <h3>My Account</h3>
-                <ul>
-                    <li>My Account</li>
-                    <li>Order History</li>
-                    <li>WishList</li>
-                    <li>Newsletter</li>
-                    <li>Order History</li>
-                    <li>International Orders</li>
-                </ul>
+                <h3>My Account</h3><br>
+                <p>My Account</p><br>
+                <p>Order History</p><br>
+                <p>WishList</p><br>
+                <p>Newsletter</p><br>
+                <p>Order History</p><br>
+                <p>International Orders</p><br>
             </div>
             <div class="columna-2">
-                <h3>Information</h3>
-                <ul>
-                    <li>About Us</li>
-                    <li>Delivery Information</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Customer Service</li>
-                    <li>Return Policy</li>
-                </ul>
+                <h3>Information</h3><br>
+                <p>About Us</p><br>
+                <p>Delivery Information</p><br>
+                <p>Privacy Policy</p><br>
+                <p>Terms & Conditions</p><br>
+                <p>Customer Service</p><br>
+                <p>Return Policy</p><br>
             </div>
             <div class="columna-3">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li>Support Center</li>
-                    <li>Terms & Conditions</li>
-                    <li>Shipping</li>
-                    <li>Privacy Policy</li>
-                    <li>Help</li>
-                    <li>FAQS</li>
-                </ul>
+                <h3>Quick Links</h3><br>
+                <p>Support Center</p><br>
+                <p>Terms & Conditions</p><br>
+                <p>Shipping</p><br>
+                <p>Privacy Policy</p><br>
+                <p>Help</p><br>
+                <p>FAQS</p><br>
             </div>
             <div class="columna-4">
-                <h3>Contact Us</h3>
-                <p>Your address gives here</p>
+                <h3>Contact Us</h3><br>
+                <p>Your address gives here</p><br>
                 <p> 
                     0123456789
-                    <br/>
+                    <br>
                     0123456789
                     </p>
-                <p>
+                <p><br>
                     demo@example.com
-                    <br/>
+                    <br>
                     demo@example.com
                 </p>
             </div>
         </div>
         <div class="background-4">
-            <p>&#169 2021 <strong>Sabujcha</strong>Made with &#128147; By <strong>HasThemes</strong></p>
+            <p>&#169 2022 <strong>Sabujcha</strong>  Made with &#128147; By <strong>HasThemes</strong></p>
             <img src="img/payment.png" alt="" style="float:right">
         </div>
     </section>

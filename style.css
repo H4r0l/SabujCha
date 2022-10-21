@@ -11,6 +11,10 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
 }
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
 #text-product {
     font-family: 'Work Sans', sans-serif;
     color: #706f6f;
@@ -120,19 +124,9 @@ h2 {
     background-repeat: no-repeat;
     height: 100%;
 }
-ul li{
-    display: inline-block;
-    background-color: white;
-    padding-top: 3ch;
-    padding-bottom: 3ch;
-    padding-right: 1ch;
-    padding-left: 1ch;
-    font-family: 'Work Sans', sans-serif;
-}
-ul li:hover {
-    background-color: black;
-    color: white;
-}
+
+
+
 .logo{
     padding: 2ch;
     margin-left: 50ch;
@@ -269,6 +263,138 @@ ul li:hover {
 .planta {
     width: 10vh
 }
+.cuote{
+    display: flex;
+    padding: 10vh;
+    justify-content: center;
+    align-content: center;
+}
+.presentacion{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.producto-parte-1{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.product-cards-1{
+    
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    display:flex;
+}
+.product-cards{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.img-min{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 220px;
+}
+.img_p{
+    width: 37%;
+    height: 73%;
+    margin: 15px;
+    text-align: center;
+}
+.box_star{
+    width: 450px;
+    display: flex;
+    justify-content: start;
+}
+
+.producto-parte-2{
+    margin-bottom: 5rem;
+    align-items: flex-start;
+    width: 580px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+}
+.precio{
+    font-weight: 600;
+}
+
+.fa-star {
+    color:#529F0F ;
+}
+.starblack {
+    color: gray;
+}
+element.style{
+    vertical-align: inherit;
+}
+.comentarios{
+    padding-right: 5px;
+    border-right: 1px solid gray;
+}
+.parrafo{
+
+    color: #706f6f;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+.texto-verde {
+    color: #529f0f;
+}
+.box-social{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.boton-twitter{
+    background-color: #4CA7EA;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boton-facebook{
+    background-color: #495E9A;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boton-google{
+    background-color: #CF563F;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boton-pinterest{
+    background-color: #BD342C;
+    padding: 10px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+=======
 .cuote {
     margin-top: 10vh;
     margin-bottom: 10vh;

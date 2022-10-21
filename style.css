@@ -262,12 +262,7 @@ ul li:hover {
     margin-left: 10px;
     margin-top: 10px;
 }
-.desc {
-    font-family: 'Work Sans', serif;
-    position: relative;
-    top: 11px;
-    right: 2px;
-}
+
 .zindex {
     z-index: 0;
 }

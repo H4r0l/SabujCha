@@ -137,6 +137,9 @@ ul li:hover {
     padding: 2ch;
     margin-left: 50ch;
 }
+.hidden {
+    visibility: hidden;
+}
 .compra {
     font-family: 'Work Sans', sans-serif;
     padding: 3ch;
@@ -306,5 +309,99 @@ ul li:hover {
     .tarjetas{
         display: flex;
         justify-content: space-around;
+    }
+}
+@media (max-width: 480px){
+    body {
+        overflow-x: hidden;
+    }
+    ul li {
+        display: none;
+    }
+    .logo {
+        margin: 0%;
+        position: relative;
+        right: 1vh;
+    }
+    .compra{
+        margin: 0%;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 0%;
+    }
+    .botones {
+        visibility: hidden;
+    }
+    .fa-cart-shopping{
+        padding: 0%;
+    }
+    .hidden{
+        visibility: visible;
+        padding-left: 4vh;
+    }
+    .tarjeta-principal{
+        display: flex;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url("../img/slider-2.jpg");
+        justify-content: center;
+        overflow: hidden;
+        margin-bottom: 10vh;
+    }
+    .Titulo-2{
+        font-size: 3vh;
+        font-weight: bold;
+    }
+    .tarjetas{
+        flex-direction: column;
+        position: relative;
+        right: 12vh;
+        gap: 5vh;
+    }
+    .Titulo{
+        position: relative;
+        right: 4vh;
+    }
+    .query-fix {
+        position: relative;
+        left: 10px;
+    }
+    .productos{
+        flex-direction: column;
+        position: relative;
+        left: 2vh;
+    }
+    .productos-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,1fr);
+    }
+    .form{
+        bottom: 8vh;
+    }
+    #input {
+        margin-top: 10vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 4vh;
+        width: 10%;
+    }
+    .boton-negro {
+        display: block;
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 30px;
+        position: relative;
+        right: 20vh;
+    }
+    .marcas {
+        position: relative;
+        left: 2vh;
+    }
+    .contenedor {
+        flex-direction: column;
     }
 }

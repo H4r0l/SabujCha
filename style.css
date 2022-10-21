@@ -36,16 +36,7 @@ h1 {
     background-repeat: no-repeat;
     height: 100%;
 }
-.imagen-producto-grande {
-    align-content: center;
-    border: 1px solid rgb(228, 228, 228);
-    width: 50%;
-}
-.imagen-producto-pequeñas {
-    align-content: center;
-    border: 1px solid rgb(228, 228, 228);
-    width: 10%;
-}
+
 ul li{
     display: inline-block;
     background-color: white;
@@ -198,4 +189,58 @@ ul li:hover {
     padding: 10vh;
     justify-content: center;
     align-content: center;
+}
+.presentacion{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.producto-parte-1{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.product-cards-1{
+    
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    display:flex;
+}
+.product-cards{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.img-min{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.img_p{
+    width: 37%;
+    height: 73%;
+    margin: 15px;
+    text-align: center;
+}
+
+.producto-parte-2{
+    margin-bottom: 5rem;
+    align-items: flex-start;
+    width: 580px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+}
+.precio{
+    font-weight: 600;
+}
+
+.fa-star {
+    color:#529F0F ;
+}
+.starblack {
+    color: gray;
 }
